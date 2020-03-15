@@ -2,7 +2,7 @@
 
 In this lab you will create small Java applications by using as reference an UML class diagram. Please consider following general notes before start implementing:
 - toString() method when required will return a string like *ClassName{attributeName1=attributeValue1,...,attributeNamen=attributeValuen}*.
-- Do not reuse (import) the same class in multiple exercises. Each exercise is standalone and should be resolved in its package.
+- Do not reuse (import) the same class in multiple exercises. **Each exercise is standalone and should be resolved in its package.**
 
 
 ## Exercise 1
@@ -31,6 +31,7 @@ Given the UML class diagram above, implement the corresponding Java program.
 
 1. Create Java classes based on the diagram above. 
     * controlStep() method check temperature and if temperature is > 50 will set fireAlarm sensor *true*.
+    * controlStep() method print a message "Fire alarm started" or "Fire alarm not started" based on verification results.
 2. Instantiate and test created classes in the provided Exercise 3 main method.
 3. Create a minimal unit test for testing the behavior of the created class.
 
@@ -42,6 +43,7 @@ Given the UML class diagram above, implement the corresponding Java program.
 
 1. Create Java classes based on the diagram above. 
     * controlStep() method check temperature and if temperature is > 50 for **all sensors** will set fireAlarm sensor *true*.
+    * controlStep() method print a message "Fire alarm started" or "Fire alarm not started" based on verification results.
 2. Instantiate and test created classes in the provided Exercise 4 main method.
 3. Create a minimal unit test for testing the behavior of the created class.
 
@@ -52,6 +54,7 @@ Given the UML class diagram above, implement the corresponding Java program.
 
 1. Create Java classes based on the diagram above. 
     * controlStep() method check temperature and if temperature is > 50 for **at least one sensor** will set fireAlarm sensor *true*.
+    * controlStep() method print a message "Fire alarm started" or "Fire alarm not started" based on verification results.
 2. Instantiate and test created classes in the provided Exercise 5 main method.
     * call controlStep() method in main by accessing the controller trough *House* object.
 3. Create a minimal unit test for testing the behavior of the created class.
