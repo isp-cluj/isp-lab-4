@@ -64,7 +64,10 @@ Given the UML class diagram above, implement the corresponding Java program.
 Note: Constructors are not represented in the diagram above, but you will need to add all necessary constructors to be able to initialise all attributes. 
 
 1. Create Java classes based on the diagram above. 
-2. Instantiate and test created classes in the provided Exercise 6 main method.
+    * method getPaymentAmount() will return 0.0 in base class Employee.
+2. Instantiate and test created classes in the provided Exercise 6 main method. 
+    1. create 1 object of each derived type and display payment amount.
+    2. create a vector of 6 objects of type Employee, add 2 object of each type and calculate total payment.
 3. Create a minimal unit test for testing the behavior of the created class.
 
 
