@@ -18,4 +18,7 @@
 ## Exercise 5 
 ![Exercise 5 image](docs/ex5.jpg)
 
+## Exercise 6 
+![Exercise 5 image](docs/ex6.jpg)
+
 

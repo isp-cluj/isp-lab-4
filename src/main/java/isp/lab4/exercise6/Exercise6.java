@@ -1,4 +1,4 @@
-package isp.lab3.exercise6;
+package isp.lab4.exercise6;
 
 public class Exercise6 {
 }
