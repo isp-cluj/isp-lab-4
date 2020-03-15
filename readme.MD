@@ -1,26 +1,70 @@
 # Implement the following exercises
 
-Considering the diagrams bellow, implement the Java classes based on the UML class diagrams. 
+In this lab you will create small Java applications by using as reference an UML class diagram. Please consider following general notes before start implementing:
+- toString() method when required will return a string like *ClassName{attributeName1=attributeValue1,...,attributeNamen=attributeValuen}*.
+- Do not reuse (import) the same class in multiple exercises. Each exercise is standalone and should be resolved in its package.
+
 
 ## Exercise 1
 ![Exercise 1 image](docs/ex1.jpg)
 
+Given the UML class diagram above, implement the corresponding Java program.
+
+1. Create Java class based on the diagram above. 
+2. Instantiate and test created class in the provided Exercise 1 main method.
+3. Create a minimal unit test for testing the behavior of the created class.
+
+
 ## Exercise 2
 ![Exercise 2 image](docs/ex2.jpg)
 
+Given the UML class diagram above, implement the corresponding Java program.
+
+1. Create Java class based on the diagram above. 
+2. Instantiate and test created class in the provided Exercise 2 main method.
+3. Create a minimal unit test for testing the behavior of the created class.
 
 ## Exercise 3 
 ![Exercise 3 image](docs/ex3.jpg)
+
+Given the UML class diagram above, implement the corresponding Java program.
+
+1. Create Java classes based on the diagram above. 
+    * controlStep() method check temperature and if temperature is > 50 will set fireAlarm sensor *true*.
+2. Instantiate and test created classes in the provided Exercise 3 main method.
+3. Create a minimal unit test for testing the behavior of the created class.
 
 
 ## Exercise 4
 ![Exercise 4 image](docs/ex4.jpg)
 
+Given the UML class diagram above, implement the corresponding Java program.
+
+1. Create Java classes based on the diagram above. 
+    * controlStep() method check temperature and if temperature is > 50 for **all sensors** will set fireAlarm sensor *true*.
+2. Instantiate and test created classes in the provided Exercise 4 main method.
+3. Create a minimal unit test for testing the behavior of the created class.
 
 ## Exercise 5 
 ![Exercise 5 image](docs/ex5.jpg)
 
+Given the UML class diagram above, implement the corresponding Java program.
+
+1. Create Java classes based on the diagram above. 
+    * controlStep() method check temperature and if temperature is > 50 for **at least one sensor** will set fireAlarm sensor *true*.
+2. Instantiate and test created classes in the provided Exercise 5 main method.
+    * call controlStep() method in main by accessing the controller trough *House* object.
+3. Create a minimal unit test for testing the behavior of the created class.
+
 ## Exercise 6 
 ![Exercise 5 image](docs/ex6.jpg)
+
+Given the UML class diagram above, implement the corresponding Java program.
+
+Note: Constructors are not represented in the diagram above, but you will need to add all necessary constructors to be able to initialise all attributes. 
+
+1. Create Java classes based on the diagram above. 
+2. Instantiate and test created classes in the provided Exercise 6 main method.
+3. Create a minimal unit test for testing the behavior of the created class.
 
 
