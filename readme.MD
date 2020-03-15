@@ -1,5 +1,7 @@
 # Implement the following exercises
 
+Considering the diagrams bellow, implement the Java classes based on the UML class diagrams. 
+
 ## Exercise 1
 ![Exercise 1 image](docs/ex1.jpg)
 
