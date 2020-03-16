@@ -4,6 +4,12 @@ In this lab you will create small Java applications by using as reference an UML
 - toString() method when required will return a string like *ClassName{attributeName1=attributeValue1,...,attributeNamen=attributeValuen}*.
 - Do not reuse (import) the same class in multiple exercises. **Each exercise is standalone and should be resolved in its package.**
 
+## Exercise 0
+
+This exercise demonstrate concepts you will need to apply in this lab. Solution for this diagram can be found in source folder in package *isp.lab4.exercise0*.
+![Exercise 1 image](docs/ex0.jpg)
+
+**NOTE: This exercise do not require any implementation from student.**
 
 ## Exercise 1
 ![Exercise 1 image](docs/ex1.jpg)
